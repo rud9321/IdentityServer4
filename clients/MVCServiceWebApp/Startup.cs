@@ -59,6 +59,7 @@ namespace MVCServiceWebApp
             options.Scope.Add("openid");
             options.Scope.Add("profile");
             options.Scope.Add("offline_access");
+            options.Scope.Add("testApi");
         }
 
         private void setAuthenticationOptions(AuthenticationOptions options)
